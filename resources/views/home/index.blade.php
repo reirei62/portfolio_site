@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>pite/index</title>
+    <style>
+    *{
+      margin:0px;
+      padding:0px;
+      list-style:none;
+    }
+    html,body{
+      height:100%;
+    }
+    .header{
+      display:flex;
+      position:fixed;
+      top:0px;
+      left:0px;
+      background-color:pink;
+      width:100%;
+      height:6%;
+    }
+    .top-menu{
+      display:flex;
+    }
+    .header-cover{
+      width:100%;
+      height:6%;i
+    }
+    .main{
+      
+    }
+    .footer-cover{
+      width:100%;
+      height:4%;
+    }
+    .footer{
+      position:fixed;
+      bottom:0px;
+      left:0px;
+      background-color:pink;
+      width:100%;
+      height:4%;
+    }
+    </style>
+  </head>
+  <body>
+    @include('components.header')
+    <diV class="main">
+      <p>ぴての依頼サイト</p>
+    </div>
+    @include('components.footer')
+  </body>
+
+</html>
