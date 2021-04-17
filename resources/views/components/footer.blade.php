@@ -2,5 +2,7 @@
 </div>
 
 <div class="footer">
-  <p>copyright 2020 rei</p>
+  <small>
+    @copyright 2020 reimayama
+  </small>
 </div>

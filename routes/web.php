@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('pite','App\Http\Controllers\HomeController@index');
+Route::get('index','App\Http\Controllers\HomeController@index');
